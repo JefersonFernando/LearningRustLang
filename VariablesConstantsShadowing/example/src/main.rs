@@ -1,4 +1,9 @@
 fn main() {
+
+    const SECONDS_IN_MINUTE: u32 = 60; // CONST
+
+    println!("Seconds in minute:{}", SECONDS_IN_MINUTE);
+
     let x = 4; // immutable
     let mut y = 5; //mutable
     println!("x is: {}", x);
